@@ -1,0 +1,36 @@
+/* 图标区 */
+.separator {
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .icp,
+    .gonganbei,
+    .tencentcloud,
+    .aliyunecs,
+    .duojiyun {
+        font-size: 0;
+    }
+
+    .icp img,
+    .gonganbei img,
+    .tencentcloud img,
+    .aliyunecs img,
+    .duojiyun img {
+        display: inline-block;
+    }
+}
+
+
+
+/* 全局区 */
+/*body {
+    filter: grayscale(100%);
+  }*/ 
+  /* 彩色字体 */ .gradient-text {
+    background: linear-gradient(to right, blue, purple, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
