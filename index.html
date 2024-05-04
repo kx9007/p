@@ -98,7 +98,7 @@
                 
                 <!-- 下部分内容区 -->
                 <div class="main-bot-nr">
-                    <a href="https://api.qoc.cc/api/mp?qq=809551336" target="_blank" class="main-bot-nr-kp" id='qq'>
+                    <a href="https://api.qoc.cc/api/mp?qq=809551336" target="_blank" class="main-bot-nr-kp" id='myqq'>
                         <div class="main-bot-nr-kp-k">
                             <div class="main-bot-nr-kp-k-img"><img src="https://wiki.connect.qq.com/wp-content/uploads/2013/10/03_qq_symbol-1-768x921.png" alt="酷侠" class="酷侠"></div>
                            <div class="main-bot-nr-kp-k-n">
@@ -200,8 +200,8 @@
 </html>
 <script>
 var data = new URLSearchParams(window.location.search);
-    qq = data.get('qq');
+    qq = data.get('myqq');
     name = data.get('name');
     document.getElementById("name").innerText = name;
-    document.getElementById("qq").setAttribute("href", "https://api.qoc.cc/api/mp?qq=" + qq);
+    document.getElementById('myqq').href ='https://api.qoc.cc/api/mp?qq='+qq;
 </script>
